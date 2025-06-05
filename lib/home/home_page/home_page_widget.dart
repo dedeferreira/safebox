@@ -288,7 +288,7 @@ class _HomePageWidgetState extends State<HomePageWidget> {
                                   highlightColor: Colors.transparent,
                                   onTap: () async {
                                     context.pushNamed(
-                                        CadastroDOCSQLliteWidget.routeName);
+                                        CadastroDOCOriginalWidget.routeName);
                                   },
                                   child: Material(
                                     color: Colors.transparent,

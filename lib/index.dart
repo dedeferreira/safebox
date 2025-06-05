@@ -10,10 +10,9 @@ export '/cadastro_documento/cadastro_d_o_c/cadastro_d_o_c_widget.dart'
     show CadastroDOCWidget;
 export '/cadastro_documento/page_documento/page_documento_widget.dart'
     show PageDocumentoWidget;
-export '/documento_s_q_llite/cadastro_d_o_c_s_q_llite/cadastro_d_o_c_s_q_llite_widget.dart'
-    show CadastroDOCSQLliteWidget;
 export '/documento_s_q_llite/page_documento_s_q_llite/page_documento_s_q_llite_widget.dart'
     show PageDocumentoSQLliteWidget;
 export '/cadastro_documento/add_documento/add_documento_widget.dart'
     show AddDocumentoWidget;
-export '/test/test_widget.dart' show TestWidget;
+export '/documento_s_q_llite/cadastro_d_o_c_original/cadastro_d_o_c_original_widget.dart'
+    show CadastroDOCOriginalWidget;

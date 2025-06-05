@@ -134,9 +134,8 @@ class _NavBarPageState extends State<NavBarPage> {
       'HomePage': HomePageWidget(),
       'noticias': NoticiasWidget(),
       'cadastroDOC': CadastroDOCWidget(),
-      'cadastroDOCSQLlite': CadastroDOCSQLliteWidget(),
+      'cadastroDOCOriginal': CadastroDOCOriginalWidget(),
       'perfil': PerfilWidget(),
-      'test': TestWidget(),
     };
     final currentIndex = tabs.keys.toList().indexOf(_currentPageName);
 
@@ -182,7 +181,7 @@ class _NavBarPageState extends State<NavBarPage> {
           ),
           BottomNavigationBarItem(
             icon: Icon(
-              Icons.cloud_done,
+              Icons.cloud_done_sharp,
               size: 24.0,
             ),
             label: 'Home',
@@ -192,14 +191,6 @@ class _NavBarPageState extends State<NavBarPage> {
             icon: Icon(
               Icons.person,
               size: 26.0,
-            ),
-            label: 'Home',
-            tooltip: '',
-          ),
-          BottomNavigationBarItem(
-            icon: Icon(
-              Icons.texture,
-              size: 24.0,
             ),
             label: 'Home',
             tooltip: '',

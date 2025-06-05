@@ -142,13 +142,6 @@ GoRouter createRouter(AppStateNotifier appStateNotifier) => GoRouter(
           builder: (context, params) => PageDocumentoWidget(),
         ),
         FFRoute(
-          name: CadastroDOCSQLliteWidget.routeName,
-          path: CadastroDOCSQLliteWidget.routePath,
-          builder: (context, params) => params.isEmpty
-              ? NavBarPage(initialPage: 'cadastroDOCSQLlite')
-              : CadastroDOCSQLliteWidget(),
-        ),
-        FFRoute(
           name: PageDocumentoSQLliteWidget.routeName,
           path: PageDocumentoSQLliteWidget.routePath,
           builder: (context, params) => PageDocumentoSQLliteWidget(),
@@ -159,10 +152,11 @@ GoRouter createRouter(AppStateNotifier appStateNotifier) => GoRouter(
           builder: (context, params) => AddDocumentoWidget(),
         ),
         FFRoute(
-          name: TestWidget.routeName,
-          path: TestWidget.routePath,
-          builder: (context, params) =>
-              params.isEmpty ? NavBarPage(initialPage: 'test') : TestWidget(),
+          name: CadastroDOCOriginalWidget.routeName,
+          path: CadastroDOCOriginalWidget.routePath,
+          builder: (context, params) => params.isEmpty
+              ? NavBarPage(initialPage: 'cadastroDOCOriginal')
+              : CadastroDOCOriginalWidget(),
         )
       ].map((r) => r.toRoute(appStateNotifier)).toList(),
     );

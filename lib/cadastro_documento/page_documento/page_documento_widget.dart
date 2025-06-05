@@ -88,7 +88,7 @@ class _PageDocumentoWidgetState extends State<PageDocumentoWidget> {
                   mainAxisSize: MainAxisSize.max,
                   children: [
                     Text(
-                      'Titulo',
+                      'CNH',
                       style: FlutterFlowTheme.of(context).bodyMedium.override(
                             font: GoogleFonts.inter(
                               fontWeight: FontWeight.bold,
@@ -112,7 +112,7 @@ class _PageDocumentoWidgetState extends State<PageDocumentoWidget> {
                   mainAxisSize: MainAxisSize.max,
                   children: [
                     Text(
-                      'Categoria',
+                      'Pessoal',
                       style: FlutterFlowTheme.of(context).bodyMedium.override(
                             font: GoogleFonts.inter(
                               fontWeight: FontWeight.normal,
@@ -137,7 +137,7 @@ class _PageDocumentoWidgetState extends State<PageDocumentoWidget> {
                   mainAxisSize: MainAxisSize.max,
                   children: [
                     Text(
-                      'Categoria',
+                      'MInha CNH para deixar salva na safebox',
                       style: FlutterFlowTheme.of(context).bodyMedium.override(
                             font: GoogleFonts.inter(
                               fontWeight: FontWeight.normal,
@@ -160,8 +160,8 @@ class _PageDocumentoWidgetState extends State<PageDocumentoWidget> {
                 padding: EdgeInsetsDirectional.fromSTEB(20.0, 20.0, 20.0, 0.0),
                 child: ClipRRect(
                   borderRadius: BorderRadius.circular(24.0),
-                  child: Image.network(
-                    'https://picsum.photos/seed/598/600',
+                  child: Image.asset(
+                    'assets/images/CNH1.jpg',
                     width: double.infinity,
                     height: 450.0,
                     fit: BoxFit.cover,
